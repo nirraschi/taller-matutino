@@ -24,9 +24,10 @@ const Hero = () => {
                     Espacio de producción y experimentación artística dentro de la carrera.
                 </p>
 
-                <button className="px-8 py-3 border border-white hover:bg-white hover:text-black transition duration-300">
-                    Conocer más
-                </button>
+                <a className="px-8 py-3 border border-white hover:bg-white hover:text-black transition duration-300"
+                href="#imagenes">
+                    Ver imágenes
+                </a>
             </div>
         </section>
     );
