@@ -20,17 +20,22 @@ const Navbar = () => {
                         />
                     </a>
                     <h1 className="text-lg font-serif tracking-wide">
-                        Taller de Arte
+                        Taller de Escultura
                     </h1>
                 </div>
 
                 {/* Desktop menu */}
                 <div className="hidden md:flex gap-10 text-sm uppercase tracking-wider">
-                    <a href="/#inicio" className="hover:text-white transition">Inicio</a>
-                    <a href="/#imagenes" className="hover:text-white transition">Imágenes</a>
-                    <a href="/#herramientas" className="hover:text-white transition">Herramientas</a>
-                    <Link to="/novedades" className="hover:text-white transition">Novedades</Link>
-                    <a href="/#proyecto" className="hover:text-white transition">Proyecto</a>
+                    <a href="/#inicio" className="hover:text-white  
+                    hover:underline hover:underline-offset-4 transition-all hover:decoration-amber-300">Inicio</a>
+                    <a href="/#imagenes" className="hover:text-white 
+                    hover:underline hover:underline-offset-4 transition-all hover:decoration-amber-300">Imágenes</a>
+                    <a href="/#herramientas" className="hover:text-white 
+                    hover:underline hover:underline-offset-4 transition-all hover:decoration-amber-300">Herramientas</a>
+                    <Link to="/novedades" className="hover:text-white 
+                    hover:underline hover:underline-offset-4 transition-all hover:decoration-amber-300">Novedades</Link>
+                    <a href="/#proyecto" className="hover:text-white 
+                    hover:underline hover:underline-offset-4 transition-all hover:decoration-amber-300">Proyecto</a>
                 </div>
 
                 {/* Mobile button */}

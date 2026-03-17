@@ -4,7 +4,7 @@ import processImage from "../assets/escultura.jpeg";
 const Process = () => {
     return (
         <section className="py-28 bg-white"
-        id="taller">
+            id="taller">
             <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
 
                 {/* Imagen */}
@@ -21,6 +21,8 @@ const Process = () => {
                     <h3 className="text-4xl font-serif mb-6 leading-snug">
                         El proceso como eje de la formación
                     </h3>
+                    <div className="w-16 h-[2px] bg-amber-400 mb-8" />
+
 
                     <p className="text-lg leading-relaxed text-neutral-700">
                         En el Taller Matutino, el proceso es tan importante como el resultado final.

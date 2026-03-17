@@ -8,7 +8,7 @@ const Hero = () => {
 
             {/* Imagen de fondo */}
             <div
-                className="absolute inset-0 bg-cover bg-center"
+                className="absolute inset-0 bg-cover bg-center saturate-150"
                 style={{ backgroundImage: `url(${heroImage})` }}
             />
 
@@ -18,14 +18,14 @@ const Hero = () => {
             {/* Contenido */}
             <div className="relative z-10 text-center px-6 max-w-3xl">
                 <h1 className="text-4xl md:text-6xl font-serif mb-6 leading-tight">
-                    Taller Matutino de Escultura
+                    Taller Matutino de Escultura - Lorenzo Dominguez
                 </h1>
 
                 <p className="text-lg md:text-xl mb-8 font-light">
                     Espacio de producción y experimentación artística dentro de la carrera.
                 </p>
 
-                <a className="px-8 py-3 border border-white hover:bg-white hover:text-black transition duration-300"
+                <a className="px-8 py-3 border border-white hover:bg-amber-300 hover:border-amber-300 hover:text-black transition duration-300"
                 href="#imagenes">
                     Ver imágenes
                 </a>

@@ -1,7 +1,7 @@
 import React from 'react'
 import facultadImg from '../assets/facultad.jpeg'
-import alumna1Img from '../assets/perfil-1.png'
-import alumna2Img from '../assets/perfil-2.png'
+import alumna1Img from '../assets/usuario.png'
+import alumna2Img from '../assets/usuario.png'
 
 
 const Academic = () => {
@@ -15,7 +15,7 @@ const Academic = () => {
                 <div className="mb-20">
                     <img
                         src={facultadImg}
-                        className="w-full h-[420px] object-cover"
+                        className="w-full h-[420px] object-cover saturate-150"
                     />
                 </div>
 

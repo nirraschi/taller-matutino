@@ -12,7 +12,7 @@ const About = () => {
                         Un espacio centrado en la formación artística
                     </h3>
 
-                    <div className="w-16 h-[2px] bg-neutral-400 mb-8" />
+                    <div className="w-16 h-[2px] bg-amber-400 mb-8" />
 
                     <p className="text-lg leading-relaxed text-neutral-700 space-y-4">
                         El Taller Matutino es el espacio donde los estudiantes de la carrera
