@@ -18,7 +18,7 @@ const Hero = () => {
             {/* Contenido */}
             <div className="relative z-10 text-center px-6 max-w-3xl">
                 <h1 className="text-4xl md:text-6xl font-serif mb-6 leading-tight">
-                    Taller de Escultura
+                    Taller Matutino de Escultura
                 </h1>
 
                 <p className="text-lg md:text-xl mb-8 font-light">
