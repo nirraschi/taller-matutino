@@ -11,17 +11,17 @@ import Espacios from "./components/Espacios"
 import Equipo from "./components/Equipo"
 
 import { Routes, Route } from "react-router-dom"
-
+import ScrollToTop from "./components/ScrollToTop"
 
 function Home() {
   return (
     <>
       <Hero />
-      <About/>
-      <Process/>
-      <Gallery/>
-      <Tools/>
-      <Academic/>
+      <About />
+      <Process />
+      <Gallery />
+      <Tools />
+      <Academic />
     </>
   )
 }
@@ -30,6 +30,7 @@ function App() {
 
   return (
     <>
+      <ScrollToTop />
       <Navbar />
 
       <Routes>
