@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import img1 from "../assets/tool-1.jpeg";
 import img2 from "../assets/tool-2.jpeg";
 import img3 from "../assets/tool-3.jpeg";
@@ -41,7 +43,7 @@ const tools = [
 const Tools = () => {
     return (
         <section className="py-28 bg-white"
-        id="herramientas">
+            id="herramientas">
             <div className="max-w-6xl mx-auto px-6">
 
                 {/* Header */}
@@ -79,7 +81,48 @@ const Tools = () => {
                     ))}
 
                 </div>
+                <div className="grid md:grid-cols-2 gap-6 mt-20 px-6 md:px-16">
+
+                    {/* ESPACIOS */}
+                    <div className="flex flex-col gap-6 bg-neutral-100 p-6 rounded-lg justify-center items-center text-center">
+                        <h4 className="text-2xl font-serif">
+                            Espacios verdes
+                        </h4>
+
+                        <p className="max-w-md text-neutral-700">
+                            El taller cuenta con espacios al aire libre que acompañan las prácticas escultóricas,
+                            permitiendo trabajar con distintos materiales en un entorno más abierto.
+                        </p>
+
+                        <Link
+                            to="/espacios"
+                            className="px-6 py-2 border border-black hover:bg-black hover:text-white transition"
+                        >
+                            Ver espacios
+                        </Link>
+                    </div>
+
+                    {/* EQUIPO DOCENTE */}
+                    <div className="flex flex-col gap-6  bg-amber-300 p-6 rounded-lg justify-center items-center text-center">
+                        <h4 className="text-2xl font-serif">
+                            Equipo docente
+                        </h4>
+
+                        <p className="max-w-md text-neutral-700">
+                            Conocé a quienes acompañan la formación en el taller, articulando enseñanza, práctica artística y producción.
+                        </p>
+
+                        <Link
+                            to="/equipo-docente"
+                            className="px-6 py-2 border border-black hover:bg-black hover:text-white transition"
+                        >
+                            Ver equipo
+                        </Link>
+                    </div>
+
+                </div>
             </div>
+
         </section>
     );
 };

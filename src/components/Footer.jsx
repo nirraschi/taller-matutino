@@ -1,3 +1,5 @@
+import logo from "../assets/logo-artes.png";
+
 const Footer = () => {
     return (
         <footer className="bg-neutral-900 text-neutral-300 py-16">
@@ -14,7 +16,7 @@ const Footer = () => {
                 </div>
 
                 {/* Columna 2 */}
-                <div>
+                <div className="flex flex-col">
                     <h5 className="text-sm uppercase tracking-wider text-neutral-400 mb-4">
                         Marco institucional
                     </h5>
@@ -22,6 +24,8 @@ const Footer = () => {
                         Facultad de Artes <br />
                         Universidad Nacional de Tucumán
                     </p>
+                    <img src={logo} alt="Logo Artes" className="w-16 h-auto mt-4" />
+
                 </div>
 
                 {/* Columna 3 */}

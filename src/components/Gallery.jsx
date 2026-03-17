@@ -5,6 +5,7 @@ import img4 from "../assets/gallery-4.jpeg";
 import img5 from "../assets/gallery-5.jpeg";
 
 
+
 const Gallery = () => {
     return (
         <section className="py-28 bg-neutral-50"
@@ -54,6 +55,7 @@ const Gallery = () => {
                     />
 
                 </div>
+
             </div>
         </section>
     );

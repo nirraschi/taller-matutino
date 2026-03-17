@@ -1,4 +1,5 @@
 import heroImage from "../assets/fondo.jpeg";
+import logoArtes from "../assets/logo-artes.png";
 
 const Hero = () => {
     return (
@@ -17,7 +18,7 @@ const Hero = () => {
             {/* Contenido */}
             <div className="relative z-10 text-center px-6 max-w-3xl">
                 <h1 className="text-4xl md:text-6xl font-serif mb-6 leading-tight">
-                    Taller Matutino
+                    Taller de Escultura
                 </h1>
 
                 <p className="text-lg md:text-xl mb-8 font-light">
@@ -29,6 +30,7 @@ const Hero = () => {
                     Ver imágenes
                 </a>
             </div>
+            <img src={logoArtes} alt="Logo Artes" className="absolute bottom-0 left-10 h-24 hover:scale-150 transition-all duration-300 ease-in-out" />
         </section>
     );
 };
