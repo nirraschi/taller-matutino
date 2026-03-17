@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const Equipo = () => {
     return (
-        <section className="px-6 md:px-16 py-20 bg-white text-black">
+        <section className="px-6 md:px-16 py-20 bg-white text-black mt-20">
 
             <h3 className="text-sm uppercase tracking-wider text-neutral-400 mb-6">
                 Equipo docente
