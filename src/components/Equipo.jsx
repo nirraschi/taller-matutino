@@ -1,6 +1,6 @@
 import React from 'react'
 import docente1 from "../assets/docente-carlos.png";
-import docente2 from "../assets/usuario.png";
+import docente2 from "../assets/docente-aime.jpeg";
 import docente3 from "../assets/docente-zoe.jpeg";
 import puerta from "../assets/puerta.jpeg";
 
@@ -91,7 +91,7 @@ const Equipo = () => {
                     <div className="border border-neutral-200 hover:shadow-xl transition duration-300">
                         <img
                             src={docente2}
-                            className="w-full h-72 object-contain"
+                            className="w-full h-72 object-cover"
                         />
 
                         <div className="p-6">
@@ -104,7 +104,9 @@ const Equipo = () => {
                             </p>
 
                             <p className="text-sm text-neutral-600 leading-relaxed">
-                                Docente del taller que acompaña los procesos de formación en escultura, participando en las actividades prácticas y en el seguimiento de los proyectos de los estudiantes.
+                                Es Licenciada en Artes Plásticas por la Universidad Nacional de Tucumán, miembro investigador del Proyecto PIUNT C/708 Patrimonio artístico y museología. Las escenas artísticas, la escultura y el arte urbano en Tucumán y del Instituto de Investigaciones de Arte y Cultura del Oriente Antiguo. 
+Actualmente realiza estudios de posgrado en el Doctorado en Humanidades de la Facultad de Filosofía y Letras, y la Especialización en Historia del Arte de Tucumán de la Facultad de Artes, ambas pertenecientes a la Universidad Nacional de Tucumán. También cursa la Diplomatura de Posgrado en Estudios de Egipto y Cercano Oriente Antiguo: historia, arte y religión, de la Facultad de Humanidades de la Universidad Nacional de Salta.
+Se desempeña como docente en la Facultad de Artes en el Taller de Escultura - Turno Matutino y en la cátedra Historia del Arte Antiguo del Departamento de Artes Visuales de Aguilares.
                             </p>
                         </div>
                     </div>
